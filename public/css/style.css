@@ -1,0 +1,155 @@
+body {
+    direction: rtl;
+    font-size: 14px;
+	margin: 0 auto;
+    width: 1000px;
+}
+
+
+
+
+/*header*/
+
+#main-navigation{
+    list-style: none;
+	background-color:burlywood;
+}
+
+#main-navigation li{
+    display:inline-block;
+}
+
+#main-navigation li a{
+     color:black;
+     text-decoration:none;
+     padding:0 20px;
+     display:inline-block;
+}
+
+
+/*footer*/
+
+.footer{
+    background-color:burlywood;
+    padding:30px 0;
+    line-height:40px;
+	height:120px;
+}
+
+
+
+
+
+
+
+/*main section*/
+
+.main-section{
+	background-color:#f5f5f5;
+	padding-bottom:100px;
+}
+
+.title{
+	color:#008080;
+	text-align:center;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+.content{
+	color:black;
+	font-size:20px;
+	padding:0 20px;
+}
+
+
+/*register form*/
+
+form .control-box{
+    width:50%;
+    border:1px solid red;
+    overflow:hidden;
+    margin:10px auto;
+}
+
+form .control-box input, form .control-box textarea{
+    width:100%;
+    padding:5px;
+    font-family:'BYekan';
+}
+
+form .form-submit {
+    width: 25%;
+    border: 0;
+    background-color: #008080;
+}
+
+
+
+
+/* ---- media styles ---- */
+
+.book{
+    margin-right: 90px;
+    margin-top:120px;
+	margin-bottom:50px;
+}
+
+.book .book-cover{
+    width:170px;
+    padding-left:10px;
+	padding-right:10px;
+	float:right;
+}
+
+.book .book-cover img{
+    width:100%;
+    height:auto;
+}
+
+.buy-it{
+	width:200px;
+	padding-left:10px;
+	padding-right:10px;
+	background-color:blue;
+	float:right;
+}
+
+.book .book-body{
+	padding-left:20px;
+}
+
+#show-more{
+	text-align:center;
+	color:#008080;
+	background-color:burlywood;
+	margin-right:65px;
+}
+
+
+/*top header*/
+
+#top-header{
+    background-color:burlywood;
+    padding:20px 0;
+    line-height:40px;
+	height:120px;
+}
+
+#top-header #right-header{
+	float:right;
+	padding-right:100px;
+	font-size:40px;
+	color:white;
+}
+
+#top-header #left-header{
+	float:left;
+	padding-left:20px;
+}
+
+
+
+
+
+
